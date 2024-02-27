@@ -7,5 +7,6 @@ public class Main {
         float heightMeters = 1.73F; // рост человека в метрах
         int massKG = 73; // масса тела человека в килограммах
         System.out.println("Ваш индекс массы тела = " + service.calculate(heightMeters, massKG));
+
     }
 }
